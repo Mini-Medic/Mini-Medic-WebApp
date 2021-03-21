@@ -7,5 +7,4 @@ export {
   Header,
   Navbar,
   Footer
-
 }
