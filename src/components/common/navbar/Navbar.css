@@ -3,7 +3,7 @@
   background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  height: 80px;
+  height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,11 +30,37 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ccc;
+  border-bottom-width: 2px;
+  padding-right: 10px;
+  padding-bottom: 5px;
 }
-.logo-img {
+.logo-Oahu {
+  position: relative;
+  background: #43C6AC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  max-width: 100%;
-  /*max-height: 100%;*/
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-top: 40px;
+  padding-left: 10%;
+  margin-bottom: -36px;
+  font-size: 1.5rem;
+  font-family: 'Apple Chancery';
+}
+.logo-text {
+  margin-left: 10px;
+}
+.logo-text h6 {
+  margin-bottom: -10px;
+}
+
+.logo-text-bottom {
+  display: flex;
+}
+.logo-text-bottom h6 {
+
 }
 .fa-typo3 {
   margin-left: 0.5rem;

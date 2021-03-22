@@ -27,7 +27,12 @@ function Navbar(){
 
           <div className="navbar-container">
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-              {/*<img className='logo-img' src={logo} alt={'Logo'} />*/}
+              <i className="fas fa-briefcase-medical fa-2x" />
+              <div className={'logo-text'}>
+                <h6>Mini</h6>
+                <h3>Medic</h3>
+              </div>
+              <div className={'logo-Oahu'}>Oahu</div>
             </Link>
             <div className='menu-icon' onClick={handleClick}>
               <i className={click ? 'fas fa-times':'fas fa-bars'}/>
