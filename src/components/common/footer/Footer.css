@@ -26,8 +26,10 @@
 .footer_links {
   width: 100%;
   max-width:1000px;
-  display:flex;
+  display:grid;
+  grid-template-columns: repeat(3, auto);
   justify-content: center;
+  grid-gap: 150px;
 }
 
 .footer_links-wrapper {
@@ -48,7 +50,13 @@
   margin-bottom: 16px;
   color: #fff;
 }
+.footer_links-text {
+  color: #fff;
+  margin-top: 1rem;
+}
+.footer_links-text h3 {
 
+}
 .footer_links-items a {
   color: #fff;
   text-decoration: none;

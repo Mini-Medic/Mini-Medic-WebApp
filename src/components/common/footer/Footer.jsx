@@ -5,15 +5,13 @@ function Footer() {
       <div className={'footer_container'}>
         <div className={'footer_links'}>
           <div className={'footer_links-wrapper'}>
-            <div className={'footer_links-items'}>
-              <h2>About us</h2>
-              <a href="/">balabala</a>
-              <a href="/">balabala</a>
-              <a href="/">balabala</a>
-              <a href="/">balabala</a>
+            <div className={'footer_links-text'}>
+              <h3>A description about Mini Medic Website at here</h3>
             </div>
+          </div>
+          <div className={'footer_links-wrapper'}>
             <div className={'footer_links-items'}>
-              <h2>About us</h2>
+              <h2>INFORMATION</h2>
               <a href="/">balabala</a>
               <a href="/">balabala</a>
               <a href="/">balabala</a>
@@ -22,14 +20,7 @@ function Footer() {
           </div>
           <div className={'footer_links-wrapper'}>
             <div className={'footer_links-items'}>
-              <h2>About us</h2>
-              <a href="/">balabala</a>
-              <a href="/">balabala</a>
-              <a href="/">balabala</a>
-              <a href="/">balabala</a>
-            </div>
-            <div className={'footer_links-items'}>
-              <h2>About us</h2>
+              <h2>SUPPORT</h2>
               <a href="/">balabala</a>
               <a href="/">balabala</a>
               <a href="/">balabala</a>
