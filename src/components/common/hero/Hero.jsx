@@ -4,7 +4,7 @@ import './Hero.css';
 import '../../../App.css'
 import {Link} from 'react-router-dom';
 import {Link as Link2} from 'react-scroll';
-import Video from '../../../resource/Hawaii view.mp4'
+import Video from '../../../resource/background.mp4'
 function Hero() {
     return (
         <>
