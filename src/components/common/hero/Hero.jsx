@@ -18,9 +18,9 @@ function Hero() {
                             GET STARTED
                         </Button>
                     </Link2>
-                    <Link to='/products' className='btn-mobile'>
+                    <Link to='/register' className='btn-mobile'>
                         <Button className={'btns'} buttonStyle={'btn--primary'} buttonSize={'btn--large'}>
-                            WATCH VIDEO <i className={'far fa-play-circle'} />
+                            Register Account <i className={'far fa-registered'} />
                         </Button>
                     </Link>
                 </div>
