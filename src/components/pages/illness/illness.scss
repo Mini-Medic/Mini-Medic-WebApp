@@ -1,0 +1,41 @@
+.illness-page {
+  background: none;
+  display: grid;
+  justify-content: center;
+}
+.illness-page_title {
+  font-size: 35px;
+  padding: 20px 20px 0 0;
+}
+.illness-page_body {
+  border: 3px solid #264663;
+  border-radius: 15px;
+  height: 60vh;
+  margin: 10px 0 40px 0;
+  width: auto;
+  display: grid;
+  align-content: space-between;
+  .illness-page_body-footer {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    button {
+      border-radius: 15px;
+      min-width: 150px;
+      height: 50px;
+      font-size: 16px;
+      transition-duration: 0.4s;
+      color: white;
+      border: none;
+      background: #00B4DB;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+    button:focus {
+      outline: none;
+    }
+    button:hover {
+      transform: scale(1.1,1.1);
+    }
+  }
+}
