@@ -9,6 +9,7 @@ import { Login, Register } from "./components/login";
 import SymptomList from './components/common/symptom/SymptomList';
 import SymptomSearch from './components/common/symptom/SymptomSearch';
 import SelectedIllness from './components/common/selectedIllness/SelectedIllness';
+import Record from './components/pages/record/Record';
 function App() {
   return (
       <Router>
@@ -22,6 +23,7 @@ function App() {
             <Route path= '/SymptomSearch' component={SymptomSearch}/>
             <Route path= '/SymptomList' component={SymptomList}/>
             <Route path= '/SelectedIllness' component={SelectedIllness}/>
+            <Route path='/record' component={Record}/>
           </Switch>
           <Footer />
       </Router>
