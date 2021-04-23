@@ -6,6 +6,7 @@ import './App.css';
 import Home from "./components/pages/Home";
 import Illness from "./components/pages/illness/Illness";
 import { Login, Register } from "./components/login";
+import { Doctor, Profile } from './components/Doctor';
 import SymptomList from './components/common/symptom/SymptomList';
 import SymptomSearch from './components/common/symptom/SymptomSearch';
 import SelectedIllness from './components/common/selectedIllness/SelectedIllness';
@@ -22,6 +23,8 @@ function App() {
             <Route path= '/SymptomSearch' component={SymptomSearch}/>
             <Route path= '/SymptomList' component={SymptomList}/>
             <Route path= '/SelectedIllness' component={SelectedIllness}/>
+            <Route path= '/doctor' component={Doctor}/>
+            <Route path= '/profile1' component={Profile}/>
           </Switch>
           <Footer />
       </Router>
