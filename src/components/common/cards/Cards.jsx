@@ -3,6 +3,7 @@ import CardItem from "./CardItem";
 import './Cards.css';
 import img1 from "../../../resource/img-2.jpg"
 import img2 from "../../../resource/img-3.jpg"
+import doctor from "../../../resource/doctor.png"
 function Cards() {
     return (
         <div className={'cards'} id={'cardgroups'}>
@@ -37,10 +38,10 @@ function Cards() {
                                   label={'COVID-19 updates'}
                                   path={'/services'}
                         />
-                        <CardItem src={img2}
-                                  text={'Explore more details inside'}
-                                  label={'COVID-19 updates'}
-                                  path={'/services'}
+                        <CardItem src={doctor}
+                                  text={'Doctor preference page'}
+                                  label={'Doctor Match'}
+                                  path={'/doctor'}
                         />
                     </ul>
                 </div>
