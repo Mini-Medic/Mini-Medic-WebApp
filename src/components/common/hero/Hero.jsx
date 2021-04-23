@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button} from '../navbar/Button';
+import {NavButton} from '../navbar/Button';
 import './Hero.css';
 import '../../../App.css'
 import {Link} from 'react-router-dom';
@@ -14,14 +14,14 @@ function Hero() {
                 <p>We care about your health !</p>
                 <div className={'hero-btns'}>
                     <Link2 activeClass="active" to='cardgroups' spy={true} smooth={true} className='btn-mobile'>
-                        <Button className={'btns'} buttonStyle={'btn--outline'} buttonSize={'btn--large'}>
+                        <NavButton className={'btns'} buttonStyle={'btn--outline'} buttonSize={'btn--large'}>
                             GET STARTED
-                        </Button>
+                        </NavButton>
                     </Link2>
                     <Link to='/register' className='btn-mobile'>
-                        <Button className={'btns'} buttonStyle={'btn--primary'} buttonSize={'btn--large'}>
+                        <NavButton className={'btns'} buttonStyle={'btn--primary'} buttonSize={'btn--large'}>
                             Register Account <i className={'far fa-registered'} />
-                        </Button>
+                        </NavButton>
                     </Link>
                 </div>
             </div>

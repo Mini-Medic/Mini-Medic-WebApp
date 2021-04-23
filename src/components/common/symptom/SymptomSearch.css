@@ -1,0 +1,39 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  object-fit: contain;
+}
+
+.container > h1 {
+    color: black;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.container > p {
+    margin-top: 5px;
+    color: black;
+    font-size: 32px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.searchbar {
+  width: 50%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.sub-container > p {
+  margin-top: 20px;
+  color: black;
+  font-size: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.margins {
+  display: flex;
+  margin: 5px;
+}
