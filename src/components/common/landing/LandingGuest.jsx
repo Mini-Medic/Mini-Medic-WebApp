@@ -17,7 +17,7 @@ function LandingGuest() {
             <Grid.Column textAlign="center">
               <Segment>
                 <h1>View Past Illnesses</h1>
-                <Button basic color='blue' class="ui disabled button">ILLNESS RECORDER</Button>
+                <Button basic class="ui disabled button">ILLNESS RECORDER</Button>
                 <h2>You must have an account to access your record history.</h2>
               </Segment>
             </Grid.Column>
