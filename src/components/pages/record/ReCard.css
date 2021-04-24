@@ -1,0 +1,43 @@
+.recordCard {
+  background: white;
+  border: 1px solid grey;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  height: auto;
+  max-width: 700px;
+  max-height: 150px;
+  padding: 15px 15px 10px 10px;
+  margin: 10px 10px 5px 5px;
+  transition: all 0.25s ease;
+}
+
+.recordCard:hover {
+  transform: scale(1.1,1.1);
+}
+
+.card-link {
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+  margin-right: 50px;
+}
+
+.card-title {
+  color: #1f98f4;
+  margin-right: 5px;
+}
+
+.card-content {
+  color: #666;
+  font-size: 16px;
+  font-family: "Gill Sans", sans-serif;
+  padding-top: 15px;
+
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+}
