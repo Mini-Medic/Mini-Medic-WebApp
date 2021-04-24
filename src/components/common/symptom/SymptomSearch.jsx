@@ -5,9 +5,7 @@ import '../../../App.css';
 import {Link, NavLink} from 'react-router-dom';
 
 function SymptomSearch(props) {
-  // console.log(props.location.symptomProps.symptomData);
   const [count, setCount] = useState(0);
-  let search;
 
   function handleInputChange(e) {
     setCount(e.target.value);

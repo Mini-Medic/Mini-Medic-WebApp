@@ -1,15 +1,11 @@
 import React, {useState} from 'react';
-import {NavButton} from '../navbar/Button';
 import '../symptom/SymptomList.css';
 import '../../../App.css';
-import { Link, NavLink } from 'react-router-dom';
-import {Link as Link2} from 'react-scroll';
-import Video from '../../../resource/background.mp4';
+import { NavLink } from 'react-router-dom';
 import { Checkbox, Button } from 'semantic-ui-react';
 
 
 function SymptomList(props) {
-    // console.log(props.location.symptomProps.symptomData);
 
   const [symptoms, setSymptoms] = useState({
       "Abdominal Pain": false,

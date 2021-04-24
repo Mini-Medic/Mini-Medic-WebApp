@@ -4,7 +4,7 @@ import '../../../App.css';
 import { Icon, Button } from 'semantic-ui-react';
 import { NavLink } from 'react-router-dom';
 function SymptomList(props) {
-    //console.log(props.location.aboutProps.searchData);
+
   return (
       <>
         <div className='container'>
