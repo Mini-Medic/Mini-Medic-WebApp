@@ -20,7 +20,7 @@ function App() {
 
           <Navbar />
           <Switch>
-            <Route path= '/' exact component={Home}/>
+            <Route path= '/' exact component={LandingGuest}/>
             <Route path= '/signin' component={Login}/>
             <Route path= '/register' component={Register}/>
             <Route path= '/illness' component={Illness}/>
@@ -29,7 +29,6 @@ function App() {
             <Route path= '/SelectedIllness' component={SelectedIllness}/>
             <Route path= '/DoctorPreferences' component={DoctorPreferences}/>
             <Route path='/record' component={Record}/>
-            <Route path='/LandingGuest' component={LandingGuest}/>
             <Route path='/LandingUser' component={LandingUser}/>
             <Route path= '/doctor' component={Doctor}/>
             <Route path= '/profile1' component={Profile}/>

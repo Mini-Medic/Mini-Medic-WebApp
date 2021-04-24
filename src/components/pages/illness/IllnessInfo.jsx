@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './IllnessInfo.scss'
 function IllnessInfo(props){
 
@@ -14,7 +15,9 @@ function IllnessInfo(props){
             </div>
             <div className={'illnessInfo-footer'}>
                 <button className={'cancel'} onClick={props.hidecomponent}>Cancel</button>
-                <button className={'select'}>Select</button>
+                <Link to={'/SelectedIllness'}>
+                  <button className={'select'} path={'/SelectedIllness'}>Select</button>
+                </Link>
             </div>
             </div>
         </div>

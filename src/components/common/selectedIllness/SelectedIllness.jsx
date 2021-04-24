@@ -17,12 +17,12 @@ function SymptomList(props) {
               </div>
               <div className='group'>
                 <p>Search for a doctor</p>
-                <Button basic color='blue' className='simple-button'>Doctor Finder</Button>
+                <Button basic color='blue' className='simple-button' as={NavLink} activeClassName="active" exact to="/DoctorPreferences" key='DoctorPreferences'>Doctor Finder</Button>
               </div>
             </div>
             <div className='columns2'>
               <div className='buttons'>
-                <Button basic color='blue'  icon labelPosition='left' as={NavLink} activeClassName="active" exact to="/" key='home'>
+                <Button basic color='blue'  icon labelPosition='left' as={NavLink} activeClassName="active" exact to="/illness" key='illness'>
                   <Icon name='angle left' />
                   Back
                 </Button>

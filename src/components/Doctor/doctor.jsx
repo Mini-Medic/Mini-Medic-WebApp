@@ -24,39 +24,11 @@ export class Doctor extends React.Component {
                               label={'More info'}
                               path={'/profile1'}
                     />
-                    <CardItem src={pic2}
-                              text={'Doctor Zhou'}
-                              label={'More info'}
-                              path={'/profile1'}
-                    />
-                    <CardItem src={pic3}
-                              text={'Doctor Angeli'}
-                              label={'More info'}
-                              path={'/'}
-                    />
-                </ul>
-                <ul className={'cards_items'}>
-                    
-                    <CardItem src={pic3}
-                              text={'Doctor Jessica'}
-                              label={'More info'}
-                              path={'/'}
-                    />
-                    <CardItem src={pic3}
-                              text={'Doctor Simmy'}
-                              label={'More info'}
-                              path={'/'}
-                    />
-                     <CardItem src={pic4}
-                              text={'Doctor Strange'}
-                              label={'More info'}
-                              path={'/'}
-                    />
                 </ul>
             </div>
         </div>
 
-        <Link to='/' className="login-buttom">
+        <Link to='/DoctorPreferences' className="login-buttom">
                 <button type="button" className="btn">Redo Preferences</button>
          </Link>
 

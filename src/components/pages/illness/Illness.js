@@ -1,7 +1,7 @@
 import React from 'react'
 import IllnessCard from "./IllnessCard";
 import './illness.scss'
-function Illness(){
+function Illness(props){
     const title = "Flu";
     const content = "Symptoms: Fever, feeling feverish or having chills, sore throat, cough, congestion, aches, and tiredness/fatigue.\n" +
         "Flu symptoms are abrupt and are more intense than similar illnesses such as the common cold.\n"

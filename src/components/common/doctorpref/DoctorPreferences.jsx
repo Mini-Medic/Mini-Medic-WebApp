@@ -2,6 +2,7 @@ import React, { } from 'react';
 import '../doctorpref/DoctorPreferences.css';
 import '../../../App.css';
 import { Button } from 'semantic-ui-react';
+import { NavLink } from 'react-router-dom';
 
 function DoctorPreferences() {
   return (
@@ -50,7 +51,7 @@ function DoctorPreferences() {
             </div>
 
             <div className='submit' >
-              <Button basic color='blue' className='submit-button' size='small'>Submit</Button>
+              <Button basic color='blue' className='submit-button' size='small' as={NavLink} activeClassName="active" exact to="/doctor" key='doctor'>Submit</Button>
             </div>
           </div>
         </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import './RecordInfo.css'
+import { Link } from 'react-router-dom';
 
 function RecordInfo(props){
 
@@ -17,8 +18,12 @@ function RecordInfo(props){
             </div>
             <div className={'info-footer'}>
               <button className={'cancel'}>Remove Illness From Record</button>
-              <button className={'select'}>Look For A Different Doctor</button>
-              <button className={'cancel'} onClick={props.hidecomponent}>Return To Records</button>
+              <Link to={'/doctor'}>
+                <button className={'select'}>Look For A Different Doctor</button>
+              </Link>
+              <Link to={'/record'}>
+                <button className={'cancel'} onClick={props.hidecomponent}>Return To Records</button>
+              </Link>
             </div>
             </div>
         </div>

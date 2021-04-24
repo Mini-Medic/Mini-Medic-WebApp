@@ -20,14 +20,14 @@ function SymptomSearch(props) {
                 <p>Type your symptoms</p>
                 <div className='searchbar'>
                   <div style={{ display: 'flex', width: '100%' }}>
-                    <Input fluid style={{ width: '100%'}} size='medium'
+                    <Input fluid style={{ width: '100%'}}
                            placeholder='Search...'
                            onChange={handleInputChange}
                            className='margins'
                     />
                   </div>
 
-                  <Button className='margins' basic color='blue' as={NavLink} activeClassName="active" exact to={{pathname: "/SymptomList", symptomProps: {symptomData: count }}} key='kanbanAdd'>Search</Button>
+                  <Button className='margins' basic color='blue' as={NavLink} activeClassName="active" exact to={{pathname: "/illness", symptomProps: {symptomData: count }}} key='kanbanAdd'>Search</Button>
                 </div>
 
                 <div className='sub-container'>

@@ -54,7 +54,7 @@ function SymptomList(props) {
 
             </div>
             <div className='submit' >
-              <Button basic color='blue' className='submit-button' size='small' as={NavLink} activeClassName="active" exact to={{pathname: "/SymptomSearch", symptomProps: {symptomData: symptoms }}} key='SymptomList'>Submit</Button>
+              <Button basic color='blue' className='submit-button' size='small' as={NavLink} activeClassName="active" exact to={{pathname: "/illness", symptomProps: {symptomData: symptoms }}} key='illness'>Submit</Button>
             </div>
 
           </div>
