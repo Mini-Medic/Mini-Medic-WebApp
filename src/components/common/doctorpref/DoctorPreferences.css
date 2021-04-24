@@ -1,0 +1,54 @@
+.container {
+  height: 100vh;
+  width: 100%;
+}
+
+.body {
+  color: black;
+  font-size: 32px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 0px;
+  padding: 20px;
+}
+
+.doctorRadio {
+  flex: 1 0 20%;
+  align-self: center;
+  margin: 20px;
+  font-size: 20px;
+  flex-direction: row;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+}
+
+.doctorPref-container {
+  display: flex;
+  padding: 15px;
+  font-size: 32px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border-width: thin;
+  border-color: black;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.container-list{
+  padding: 10px;
+}
+
+.submit {
+  display: flex;
+  align-self: flex-end;
+  margin-top: 15px;
+
+}
+
+input[type="radio"]{
+  margin: 0 10px 0 10px;
+}
+
