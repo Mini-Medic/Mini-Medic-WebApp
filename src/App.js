@@ -10,6 +10,8 @@ import SymptomList from './components/common/symptom/SymptomList';
 import SymptomSearch from './components/common/symptom/SymptomSearch';
 import SelectedIllness from './components/common/selectedIllness/SelectedIllness';
 import Record from './components/pages/record/Record';
+import LandingGuest from './components/common/landing/LandingGuest';
+import LandingUser from './components/common/landing/LandingUser';
 function App() {
   return (
       <Router>
@@ -24,6 +26,8 @@ function App() {
             <Route path= '/SymptomList' component={SymptomList}/>
             <Route path= '/SelectedIllness' component={SelectedIllness}/>
             <Route path='/record' component={Record}/>
+            <Route path='/LandingGuest' component={LandingGuest}/>
+            <Route path='/LandingUser' component={LandingUser}/>
           </Switch>
           <Footer />
       </Router>
