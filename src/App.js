@@ -13,6 +13,7 @@ import DoctorPreferences from './components/common/doctorpref/DoctorPreferences'
 import Record from './components/pages/record/Record';
 import LandingGuest from './components/common/landing/LandingGuest';
 import LandingUser from './components/common/landing/LandingUser';
+import { Doctor, Profile } from './components/Doctor';
 function App() {
   return (
       <Router>
@@ -30,6 +31,8 @@ function App() {
             <Route path='/record' component={Record}/>
             <Route path='/LandingGuest' component={LandingGuest}/>
             <Route path='/LandingUser' component={LandingUser}/>
+            <Route path= '/doctor' component={Doctor}/>
+            <Route path= '/profile1' component={Profile}/>
           </Switch>
           <Footer />
       </Router>
