@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import { Footer, Navbar } from './components/common';
 import 'semantic-ui-css/semantic.css';
 import './App.css';
-import Home from "./components/pages/Home";
 import Illness from "./components/pages/illness/Illness";
 import { Login, Register } from "./components/login";
 import SymptomList from './components/common/symptom/SymptomList';

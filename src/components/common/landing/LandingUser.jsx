@@ -10,13 +10,13 @@ function LandingUser() {
             <Grid.Column textAlign="center">
               <Segment>
                 <h1>Diagnose your Illness</h1>
-                <Button as={NavLink} exact to={{ pathname: "/SymptomSearch" }}>SYMPTOM CHECKER</Button>
+                <Button basic color='blue' as={NavLink} exact to={{ pathname: "/SymptomSearch" }}>SYMPTOM CHECKER</Button>
               </Segment>
             </Grid.Column>
             <Grid.Column textAlign="center">
               <Segment>
                 <h1>View Past Illnesses</h1>
-                <Button as={NavLink} exact to={{ pathname: "/record" }}>ILLNESS RECORD</Button>
+                <Button basic color='blue' as={NavLink} exact to={{ pathname: "/record" }}>ILLNESS RECORD</Button>
               </Segment>
             </Grid.Column>
           </Grid>

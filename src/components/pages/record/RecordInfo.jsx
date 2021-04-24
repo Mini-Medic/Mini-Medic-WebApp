@@ -18,7 +18,7 @@ function RecordInfo(props){
             </div>
             <div className={'info-footer'}>
               <button className={'cancel'}>Remove Illness From Record</button>
-              <Link to={'/doctor'}>
+              <Link to={'/DoctorPreferences'}>
                 <button className={'select'}>Look For A Different Doctor</button>
               </Link>
               <Link to={'/record'}>

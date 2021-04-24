@@ -3,10 +3,6 @@ import CardItem from "./CardItem";
 import './DoctorCard.css'
 import { Link } from "react-router-dom"
 import pic1 from "./Lin.jpg"
-import pic2 from "./Zhou.jpg"
-import pic3 from "./doctor.png"
-import pic4 from "./strange.png"
-
 export class Doctor extends React.Component {
     constructor(props) {
         super(props);
