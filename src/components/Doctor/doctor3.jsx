@@ -2,10 +2,9 @@ import React from 'react';
 import CardItem from "./CardItem";
 import './DoctorCard.css'
 import { Link } from "react-router-dom"
-import pic1 from "./Lin.jpg"
-import pic2 from "./Zhou.jpg"
+import pic3 from "./strange.png"
 
-export class Doctor extends React.Component {
+export class Doctor3 extends React.Component {
     constructor(props) {
         super(props);
     }
@@ -17,15 +16,10 @@ export class Doctor extends React.Component {
         <div className={'cards_container'}>
             <div className={'cards-wrapper'}>
                 <ul className={'cards_items'}>
-                    <CardItem src={pic1}
-                              text={'Doctor Lin'}
+                    <CardItem src={pic3}
+                              text={'Doctor Strange'}
                               label={'More info'}
-                              path={'/profile1'}
-                    />
-                    <CardItem src={pic2}
-                              text={'Doctor Zhou'}
-                              label={'More info'}
-                              path={'/profile1a'}
+                              path={'/profile3'}
                     />
                 </ul>
             </div>

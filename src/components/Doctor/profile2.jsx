@@ -1,9 +1,9 @@
 import React from 'react';
-import loginImg from "./Lin.jpg";
+import loginImg from "./female.png";
 import { Card, Icon, Image } from 'semantic-ui-react'
 import {Link} from 'react-router-dom'
 
-export class Profile extends React.Component {
+export class Profile2 extends React.Component {
     constructor(props) {
         super(props);
     }
@@ -14,16 +14,16 @@ export class Profile extends React.Component {
               <Image src={loginImg} wrapped ui={false} />
               <Card.Content>
                 <Card.Header>
-                 Weile Lin
+                 Anna
                 </Card.Header>
 
                 <Card.Meta>
-                  <span className='date'>1 year work experience</span>
+                  <span className='date'>12 year work experience</span>
                 </Card.Meta>
                 
 
                 <Card.Description>
-                  Weile Lin is a Pediatrician living in Honolulu.
+                Anna Lin is a Pediatrician living in Honolulu.
                   <div>Website: www.xxxx.com</div>
                 </Card.Description>
 
@@ -36,7 +36,7 @@ export class Profile extends React.Component {
                 <a>
                 <div>
                 <Icon name='envelope' />
-                    linweile@hawaii.edu
+                  Anna@hawaii.edu
                 </div>
                 </a>
                 <a><div>
@@ -46,7 +46,7 @@ export class Profile extends React.Component {
               </Card.Content>
         
               <Card.Content extra>
-              <Link to='/doctor' className="buttom" >
+              <Link to='/doctor2' className="buttom" >
                 <button  type="button" className="sod">Select other doctor</button> 
                 </Link>
             </Card.Content>

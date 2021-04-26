@@ -51,7 +51,13 @@ function DoctorPreferences() {
             </div>
 
             <div className='submit' >
-              <Button basic color='blue' className='submit-button' size='small' as={NavLink} activeClassName="active" exact to="/doctor" key='doctor'>Submit</Button>
+              <Button basic color='blue' className='submit-button' size='small' as={NavLink} activeClassName="active" exact to="/doctor" key='doctor'>Submit (Male/ 0-10 years exp)</Button>
+            </div>
+            <div className='submit' >
+              <Button basic color='blue' className='submit-button' size='small' as={NavLink} activeClassName="active" exact to="/doctor2" key='doctor'>Submit (Female/ 10-20 years exp)</Button>
+            </div>
+            <div className='submit' >
+              <Button basic color='blue' className='submit-button' size='small' as={NavLink} activeClassName="active" exact to="/doctor3" key='doctor3'>Submit (Other/ 20+ years exp)</Button>
             </div>
           </div>
         </div>
