@@ -3,7 +3,7 @@ import './IllnessCard.scss'
 import {Link} from 'react-router-dom'
 import IllnessInfo from "./IllnessInfo";
 import {useState} from 'react';
-function IllnessCard({title, content}){
+function IllnessCard({title, symptoms, description, match}){
     const [triggle, setTriggle] = useState(false);
     const hidecomponent = () => {
         setTriggle(false)
@@ -23,10 +23,10 @@ function IllnessCard({title, content}){
         </Link>
 
         <div className={'illnessCard-status'}>
-            <h2>High Match</h2>
+            <h2>{match}</h2>
         </div>
     </li>
-    <IllnessInfo hidecomponent={hidecomponent} toggle={triggle} title={title} content={content}/>
+    <IllnessInfo hidecomponent={hidecomponent} toggle={triggle} title={title} symptoms={symptoms} description={description}/>
         </div>
     )
 }

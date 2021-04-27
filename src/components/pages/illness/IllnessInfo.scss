@@ -11,21 +11,23 @@
 }
 .illnessInfo-popup-inner {
   position: relative;
-  padding: 32px;
-  width: 100%;
+  padding: 20px;
   max-width: 640px;
-  height: auto;
-  min-height: 40vh;
   background-color: white;
   border-radius: 15px;
-
 }
+
+.illnessInfo-content {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 .illnessInfo-footer {
   //position: absolute;
   //top: 300px;
   display: flex;
   justify-content: space-between;
-  margin: 200px 0 50px 0;
+  margin: 50px 0 0px 0;
   button {
     border-radius: 10px;
     border: none;

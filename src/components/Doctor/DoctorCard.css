@@ -12,7 +12,7 @@ h1 {
 
 .cards_container {
     display: flex;
-    align-items: left;
+    align-items: flex-start;
     flex-flow: column;
     max-width: 1120px;
     width: 90%;
@@ -27,15 +27,14 @@ h1 {
 }
 
 .cards_items {
-    display: flexbox;
+    display: flex;
     margin-top: 1.5em;
     margin-bottom: 50px;
     
 }
 
 .cards_item {
-    display: flex;
-    flex: 1;
+    width: 250px;
     margin: 0 5rem;
     border-radius: 10px;
 }
