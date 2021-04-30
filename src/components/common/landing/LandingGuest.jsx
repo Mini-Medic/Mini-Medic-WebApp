@@ -2,10 +2,12 @@ import React from 'react';
 import { Grid, Button, Segment } from 'semantic-ui-react'
 import { NavLink } from 'react-router-dom';
 import '../landing/LandingGuest.css';
+import Video from '../../../resource/Medic.mp4'
 
 function LandingGuest() {
   return (
       <div className='container'>
+        <video src={Video} autoPlay loop muted />
         <div className='body'>
           <Grid stackable columns={2}>
             <Grid.Column textAlign="center">
