@@ -1,5 +1,7 @@
 import React from 'react'
 import IllnessCard from "./IllnessCard";
+import { Icon, Button } from 'semantic-ui-react';
+import { NavLink } from 'react-router-dom';
 import './illness.scss'
 function Illness(props){
     const title1 = "Gout";
@@ -26,6 +28,13 @@ function Illness(props){
                 <IllnessCard title={title2} symptoms={symptoms2} description={description2} match={"High Match"}/>
                 <IllnessCard title={title3} symptoms={symptoms3} description={description3} match={"Medium Match"}/>
                 <IllnessCard title={title4} symptoms={symptoms4} description={description4} match={"Medium Match"}/>
+
+                <div className='buttons'>
+                <Button basic color='blue'  icon labelPosition='left' as={NavLink} activeClassName="active" exact to="/SymptomSearch" key='SymptomSearch'>
+                  <Icon name='angle left' />
+                  Back
+                </Button>
+              </div>
             </div>
                 {/*<div className={'illness-page_body-footer'}>
                     <button>More matches <i className="fas fa-arrow-right" /></button>
