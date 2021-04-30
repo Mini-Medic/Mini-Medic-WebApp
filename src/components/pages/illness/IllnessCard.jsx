@@ -14,7 +14,8 @@ function IllnessCard({title, symptoms, description, match}){
         <Link className={'illnessCard-link'}  onClick={()=>setTriggle(true)}>
             <div className={'illnessCard-info'}>
                  <div className={'illnessCard-title'}>
-                    <h1>{title} <i className="fas fa-info-circle" /></h1>
+                    <h1>{title}</h1>
+                     <i className="fas fa-info-circle" >Click to learn more</i>
                 </div>
                 <div className={'illnessCard-content'}>
                     <p>Learn about {title} symptoms and treatments</p>

@@ -18,9 +18,10 @@ function ReCard({title, content, doctor}){
                     <h1>{title}</h1>
                 </div>
                 <div className={'card-content'}>
-                    <p>Review {title}'s Record</p>
+                    <i className="fas fa-info-circle" >Click to review {title}'s Record</i>
                 </div>
             </div>
+
         </Link>
 
         <div className={'status'}>

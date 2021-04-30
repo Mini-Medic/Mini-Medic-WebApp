@@ -19,6 +19,7 @@ function Illness(props){
         <div className={'illness-page'}>
             <div className={'illness-page_title'}>
                 <label>Here are illness that match your symptoms:</label>
+
             </div>
             <div className={'illness-page_body'}>
             <div className={'illness-page_body-table'}>
