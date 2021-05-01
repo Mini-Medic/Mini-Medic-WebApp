@@ -30,7 +30,7 @@ function Illness(props){
                 <IllnessCard title={title3} symptoms={symptoms3} description={description3} match={"Medium Match"}/>
                 <IllnessCard title={title4} symptoms={symptoms4} description={description4} match={"Medium Match"}/>
 
-                <div className='buttons'>
+                <div className='buttons' style={{ margin: '15px' }}>
                 <Button basic color='blue'  icon labelPosition='left' as={NavLink} activeClassName="active" exact to="/SymptomSearch" key='SymptomSearch'>
                   <Icon name='angle left' />
                   Back
