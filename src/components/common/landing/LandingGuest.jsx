@@ -12,13 +12,13 @@ function LandingGuest() {
           <Grid stackable columns={2} className='gridClass'>
             <Grid.Column textAlign="center">
               <Segment>
-                <h1>Diagnose your Illness</h1>
+                <h1 className="largeText">Diagnose your Illness</h1>
                 <Button basic color='blue' as={NavLink} exact to={{ pathname: "/SymptomSearch" }}>SYMPTOM CHECKER</Button>
               </Segment>
             </Grid.Column>
             <Grid.Column textAlign="center">
               <Segment>
-                <h1>View Past Illnesses</h1>
+                <h1 className="largeText">View Past Illnesses</h1>
                 <Button basic class="ui disabled button">ILLNESS RECORDER</Button>
                 <h2>You must have an account to access your record history.</h2>
               </Segment>

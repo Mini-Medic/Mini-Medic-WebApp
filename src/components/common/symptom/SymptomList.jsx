@@ -7,7 +7,7 @@ import { Checkbox, Button } from 'semantic-ui-react';
 
 function SymptomList(props) {
 
-  const [symptoms, setSymptoms] = useState({
+  const [symptoms, setSymptoms] = useState( {
       "Abdominal Pain": false,
       "Chest Pain": false,
       "Cough": false,

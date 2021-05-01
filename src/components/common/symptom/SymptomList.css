@@ -14,6 +14,7 @@
   filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
 }
 
+
 .body > h1 {
   color: black;
   font-size: 50px;
@@ -36,6 +37,7 @@
   border-color: black;
   border-style: solid;
   border-radius: 5px;
+  transform: scale3d(1.02,1.02,1.0);
 }
 
 .symptomCheckbox {

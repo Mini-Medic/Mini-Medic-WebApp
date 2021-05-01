@@ -6,6 +6,10 @@
 
 }
 
+.largeText {
+  font-size: 30pt;
+}
+
 .description {
   margin: 15px;
 }
