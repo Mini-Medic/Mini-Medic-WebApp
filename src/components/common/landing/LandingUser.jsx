@@ -23,6 +23,7 @@ function LandingUser() {
               </Segment>
             </Grid.Column>
           </Grid>
+          
           <Container className='description'>
             <Grid divided='vertically'>
               <Grid.Row columns={2}>

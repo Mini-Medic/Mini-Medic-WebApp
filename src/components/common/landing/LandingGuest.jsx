@@ -20,11 +20,12 @@ function LandingGuest() {
               <Segment>
                 <h1 className="largeText">View Past Illnesses</h1>
                 <Button basic class="ui disabled button">ILLNESS RECORDER</Button>
-                <h2>You must have an account to access your record history.</h2>
+                <h2 className="your-account">You must have an account to access your record history.</h2>
               </Segment>
             </Grid.Column>
           </Grid>
-          <Container className='description'>
+          
+        <Container className='description'>
             <Grid divided='vertically'>
               <Grid.Row columns={2}>
                 <Grid.Column>
@@ -39,7 +40,7 @@ function LandingGuest() {
                 </Grid.Column>
               </Grid.Row>
             </Grid>
-          </Container>
+          </Container>  
         </div>
 
       </div>
