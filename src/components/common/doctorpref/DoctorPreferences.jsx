@@ -8,8 +8,8 @@ function DoctorPreferences() {
   return (
         <div className='container'>
           <div className='body'>
-            <h1>Doctor Preferences</h1>
-            <p>Please check the corresponding boxes of the doctor you would like to search for.</p>
+            <h1 style={{ margin: '10px' }}>Doctor Preferences</h1>
+            <p style={{ margin: '10px' }}>Please check the corresponding boxes of the doctor you would like to search for.</p>
             <div className='container-list'>
             <div className='doctorPref-container'>
               <p>Gender</p>
