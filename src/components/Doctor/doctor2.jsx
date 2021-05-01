@@ -6,9 +6,6 @@ import pic1 from "./female.png"
 
 
 export class Doctor2 extends React.Component {
-    constructor(props) {
-        super(props);
-    }
 
     render(){
         return (

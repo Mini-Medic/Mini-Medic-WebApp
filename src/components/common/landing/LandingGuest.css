@@ -1,7 +1,19 @@
 .body {
+  height: 80vh;
   margin-top: 15px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+
 }
 
+.description {
+  margin: 15px;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: normal;
+}
 
 video {
   object-fit: cover;

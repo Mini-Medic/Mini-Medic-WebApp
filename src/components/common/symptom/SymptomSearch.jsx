@@ -34,7 +34,7 @@ function SymptomSearch(props) {
                 <div className={'hero-btns'}>
                   <Link to='/SymptomList' className='btn-mobile'>
                     <Button basic icon labelPosition='left' color='blue' as={NavLink} activeClassName="active" exact to={{pathname: "/SymptomList", symptomProps: {symptomData: count }}} key='SymptomList'>
-                      <Icon name='list' />
+                      <Icon name='list'/>
                       Symptom List</Button>
                   </Link>
                 </div>

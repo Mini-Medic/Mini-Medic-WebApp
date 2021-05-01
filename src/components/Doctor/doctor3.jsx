@@ -5,9 +5,6 @@ import { Link } from "react-router-dom"
 import pic3 from "./strange.png"
 
 export class Doctor3 extends React.Component {
-    constructor(props) {
-        super(props);
-    }
 
     render(){
         return (

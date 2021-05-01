@@ -15,10 +15,9 @@ function IllnessCard({title, symptoms, description, match}){
             <div className={'illnessCard-info'}>
                  <div className={'illnessCard-title'}>
                     <h1>{title}</h1>
-                     <i className="fas fa-info-circle" >Click to learn more</i>
                 </div>
                 <div className={'illnessCard-content'}>
-                    <p>Learn about {title} symptoms and treatments</p>
+                    <p>Click to learn more about {title} symptoms and treatments</p>
                 </div>
             </div>
         </Link>

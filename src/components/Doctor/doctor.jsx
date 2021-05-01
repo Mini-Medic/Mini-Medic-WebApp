@@ -6,9 +6,6 @@ import pic1 from "./Lin.jpg"
 import pic2 from "./Zhou.jpg"
 
 export class Doctor extends React.Component {
-    constructor(props) {
-        super(props);
-    }
 
     render(){
         return (
