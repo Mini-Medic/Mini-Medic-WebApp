@@ -37,13 +37,17 @@
   border-color: black;
   border-style: solid;
   border-radius: 5px;
-  transform: scale3d(1.02,1.02,1.0);
 }
 
 .symptomCheckbox {
   flex: 1 0 20%;
   align-self: center;
   margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  transform: scale(1.4);
 }
 
 .submit {
