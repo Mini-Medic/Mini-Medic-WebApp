@@ -8,10 +8,10 @@
   padding: 20px 20px 0 0;
 }
 .record-body {
-  border: 3px solid #264663;
+  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
   border-radius: 15px;
   height: 60vh;
-  margin: 10px 0 40px 0;
+  margin: 25px 0 40px 0;
   width: auto;
   display: grid;
   align-content: space-between;
