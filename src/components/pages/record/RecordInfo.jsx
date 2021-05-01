@@ -7,9 +7,7 @@ function RecordInfo(props){
     return(props.toggle) ? (
         <div className={'popup'}>
             <div className={'content-holder'}>
-            <div className={'record-title'}>
-                <h1>Record</h1>
-            </div>
+              <h1>Record</h1>
             <div className={'content'}>
                 <h2>Selected Illness: {props.title}</h2>
                 <h2>Selected Doctor: {props.doctor}</h2>

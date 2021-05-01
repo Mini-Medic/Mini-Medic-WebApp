@@ -10,12 +10,10 @@
   align-items: center;
 }
 .content-holder {
-  position: relative;
-  padding: 32px;
+  padding: 15px;
   width: 100%;
   max-width: 640px;
   height: auto;
-  min-height: 40vh;
   background-color: white;
   border-radius: 15px;
 
@@ -28,7 +26,6 @@
 .info-footer {
   display: flex;
   justify-content: space-between;
-  margin: 50px 0 50px 0;
 }
   button {
     border-radius: 10px;
